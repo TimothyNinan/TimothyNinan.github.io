@@ -2,3 +2,15 @@
     width: 100%;
     height: 100vh;
 }
+
+.bigtext {
+    transform: translate(0%,-25%);
+    
+}
+
+.bigtextcontainer {
+    width: 100%;
+    height: calc(100vh - 56px - 22px);
+    display: grid; 
+    align-content: center;
+}
