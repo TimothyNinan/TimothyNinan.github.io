@@ -10,7 +10,11 @@
 
 .bigtextcontainer {
     width: 100%;
-    height: calc(100vh - 56px - 22px);
+    height: calc(100vh - 56px);
     display: grid; 
     align-content: center;
+}
+
+hr {
+    background-color:black;
 }
