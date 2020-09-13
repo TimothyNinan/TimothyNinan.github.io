@@ -18,3 +18,21 @@
 hr {
     background-color:black;
 }
+
+.hi {
+    font-size: 6vh;
+}
+
+.timn {
+    font-size: 12vh;
+}
+
+@media only screen and (max-width: 650px) {
+    .hi {
+        font-size: 6vw;
+    }
+    
+    .timn {
+        font-size: 12vw;
+    }
+}
