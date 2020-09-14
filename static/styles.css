@@ -27,6 +27,33 @@ hr {
     font-size: 12vh;
 }
 
+.aboutcontainer {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    flex-wrap: nowrap;
+    flex-direction: row;
+}
+
+.about {
+    display: grid;
+    align-content: center;
+    justify-items: center;
+    margin: 2vw;
+}
+
+.biotext {
+    text-align: left;
+}
+
+.bioimage {
+    width: 300px; 
+    height: 300px; 
+    border: 1px solid black; 
+    border-radius: 50%;
+}
+
+
 @media only screen and (max-width: 650px) {
     .hi {
         font-size: 6vw;
@@ -34,5 +61,14 @@ hr {
     
     .timn {
         font-size: 12vw;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    .aboutcontainer {
+        flex-wrap: wrap;
+    }
+    .about {
+        width: 100%;
     }
 }
