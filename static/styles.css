@@ -60,6 +60,36 @@ hr {
     border-radius: 50%;
 }
 
+.fullheight{
+    height: calc(100vh - 56x);
+    display: grid;
+}
+
+.center {
+    display: grid;
+    justify-items: center;
+    align-content: center;
+}
+
+.maxwidth {
+    width: 100%;
+}
+
+.contactinfo {
+    width: max-content;
+}
+
+footer {
+    clear: both;
+    position: relative;
+    height: 200px;
+    margin-top: -200px;
+}
+
+.icon {
+    width: 30px;
+    margin-right: 5px;
+}
 
 @media only screen and (max-width: 650px) {
     .hi {
